@@ -214,6 +214,8 @@ public class SpydroidActivity extends FragmentActivity {
 		Intent intent;
 
 		switch (item.getItemId()) {
+		// FIXME support this options in TGS
+		/*
 		case R.id.options:
 			// Starts QualityListActivity where user can change the streaming quality
 			intent = new Intent(this.getBaseContext(),OptionsActivity.class);
@@ -222,6 +224,7 @@ public class SpydroidActivity extends FragmentActivity {
 		case R.id.quit:
 			quitSpydroid();
 			return true;
+		*/
 		default:
 			return super.onOptionsItemSelected(item);
 		}
