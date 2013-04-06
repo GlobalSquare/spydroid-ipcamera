@@ -20,6 +20,7 @@
 
 package net.majorkernelpanic.spydroid;
 
+/*
 import static org.acra.ReportField.ANDROID_VERSION;
 import static org.acra.ReportField.APP_VERSION_NAME;
 import static org.acra.ReportField.BRAND;
@@ -31,25 +32,26 @@ import static org.acra.ReportField.SHARED_PREFERENCES;
 import static org.acra.ReportField.STACK_TRACE;
 import static org.acra.ReportField.USER_APP_START_DATE;
 import static org.acra.ReportField.USER_CRASH_DATE;
+*/
 import net.majorkernelpanic.spydroid.api.CustomHttpServer;
 import net.majorkernelpanic.streaming.Session;
 import net.majorkernelpanic.streaming.SessionManager;
 import net.majorkernelpanic.streaming.video.H264Stream;
 import net.majorkernelpanic.streaming.video.VideoQuality;
 
-import org.acra.annotation.ReportsCrashes;
+//import org.acra.annotation.ReportsCrashes;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
+//import android.content.SharedPreferences.Editor;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.preference.PreferenceManager;
 import android.view.SurfaceHolder;
 
-@ReportsCrashes(formKey = "dGhWbUlacEV6X0hlS2xqcmhyYzNrWlE6MQ", customReportContent = { APP_VERSION_NAME, PHONE_MODEL, BRAND, PRODUCT, ANDROID_VERSION, STACK_TRACE, USER_APP_START_DATE, USER_CRASH_DATE, LOGCAT, DEVICE_FEATURES, SHARED_PREFERENCES })
+//@ReportsCrashes(formKey = "dGhWbUlacEV6X0hlS2xqcmhyYzNrWlE6MQ", customReportContent = { APP_VERSION_NAME, PHONE_MODEL, BRAND, PRODUCT, ANDROID_VERSION, STACK_TRACE, USER_APP_START_DATE, USER_CRASH_DATE, LOGCAT, DEVICE_FEATURES, SHARED_PREFERENCES })
 public class SpydroidApplication extends android.app.Application {
 
 	public final static String TAG = "SpydroidApplication";
