@@ -33,7 +33,7 @@ import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.majorkernelpanic.http.TinyHttpServer;
+//import net.majorkernelpanic.http.TinyHttpServer;
 import net.majorkernelpanic.streaming.Session;
 import android.app.Service;
 import android.content.Intent;
